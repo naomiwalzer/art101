@@ -1,0 +1,36 @@
+h1{
+  color: orange;
+  font-size: 300%;
+  text-indent: 500px;
+  font-style: italic;
+  border-radius: 100px;
+
+}
+
+h2{
+  color: orange;
+  font-size: 300%;
+  text-indent: 650px;
+  font-style: italic;
+  border-radius: 100px;
+
+}
+
+p {
+  font-family: cursive;
+  text-indent: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+#content {
+  background-color: magenta;
+  font-size: 200%;
+  color: blue;
+  border: 40px;
+  border-color: blue;
+
+
+
+}
