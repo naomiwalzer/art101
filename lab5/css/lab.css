@@ -1,1 +1,27 @@
-h1
+h1{
+
+  color: blue;
+  font-size: 30 px;
+  background-color: pink;
+  font-family: sans-serif;
+}
+
+h2{
+
+  color: pink;
+  background-color: blue;
+  font-size: 25 px;
+  font-family: sans-serif;
+}
+
+h3{
+
+  color: pink;
+  backgroud-color: blue;
+  font-size: 25 px;
+  font-family: sans-serif;
+}
+
+p{
+  font-family: sans-serif;
+}
