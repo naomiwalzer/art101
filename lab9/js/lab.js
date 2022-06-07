@@ -17,7 +17,8 @@ document.createElement("p");
   new1El.innerHTML = "This is very fun";
 
 
-var new2El = document.createElement("p");
+var new2El =
+document.createElement("p");
 
   output2El.appendChild(new2El);
 

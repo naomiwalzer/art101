@@ -1,0 +1,21 @@
+h2 {
+  color: orange;
+  font-size: 300%;
+  text-indent: 300px;
+  font-style: italic;
+  border-radius: 100px;
+}
+
+p{
+  background-color: pink;
+  border: 100px;
+  color: white;
+  border-radius: 300px;
+  font-size: 150%;
+}
+
+h3{
+  color: orange;
+  font-size: 250%;
+  text-indent: 200px;
+}
