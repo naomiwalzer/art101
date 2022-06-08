@@ -1,8 +1,15 @@
-h1{
-  border-radius: 100px;
-  font-family: fantasy;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c2833;
 }
-p{
-  background-color: pink;
-  color: blue;
+
+#content {
+  width: auto;
+  min-height: 300px;
+  padding-left: 10px;
+  margin: 0px;
+
+  font-size: 20px;
 }
