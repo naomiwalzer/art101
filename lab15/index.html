@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <meta charset="utf-8">
+<html>
+<head>
+	<title>Lab 15: AJAX</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/lab.js" defer></script>
+</head>
+<body>
+  <image id="apodjpg" src="img/apod.jpg"></image>
+  <div id ="content">
+
+    <div id="title">
+      <h1> Lab 15: AJAX and jQuery</h1>
+      <p> The purpose of this lab was to get used to using AJAX with jQuery.
+        It was confusing at first but eventually I got the hang of it</p>
+    </div>
+
+    <h2>Challenges</h2>
+      <p> The hardest part of the lab was getting the syntax right. The ajax
+        parameters are unique to each API and need to be set accordingly. This
+        took awhile but eventually worked well!</p>
+
+    <h2> Problems </h2>
+      <p>My image isn't linking for some reason! But the link to the Astronomy
+        picture of the day is there</p>
+
+    <h3> Results! </h3>
+      <p></p>
+      <a href="js/lab.js">JS code.</a>
+    </div>
+    <h3> APOD: </h3>
+    <div id==outputDiv>
+
+      <center>
+      <p>Grab today's Astronomy Picture of the Day straight from NASA's api and print
+      your own "partial APOD"</p>
+      <a href="https://apod.nasa.gov/apod/astropix.html">Link to the real APOD</a><br><br>
+      <button id="activate">Spam the Governments API</button><br>
+      <h1>Astronomy picture of the Day</h1>
+
+      <image id=apodImage></image>
+      <h1 id=apodTitle></h1>
+      <figcaption id="apodDate"></figcaption>
+      <p id=apodDesc></p>
+    </center>
+
+    </div>
+  </body>
+</html>
