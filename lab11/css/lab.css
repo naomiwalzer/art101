@@ -1,12 +1,22 @@
-p{
-  font: helvetica;
-  font-style: oblique;
-}
+ #content {
+   width: auto;
+   min-height: 300px;
+   padding-left: 10px;
+   margin: 0px;
 
+   font-size: 20px;
+ }
 
-h1{
-font-family: fantasy;
-font-size: 30px;
-background-color: pink;
-color: red;
-}
+ a {
+   text-indent: 0px;
+   margin-left: 20px;
+   color: white;
+ }
+
+ button {
+   margin-left: 40px;
+   padding: 40px;
+   font-size: 16px;
+   background-color: Coral;
+   color: white;
+ }

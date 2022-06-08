@@ -5,10 +5,32 @@
   * (c) Copyright by Blub Corp.
   **/
 
-$("#my-button").append("come here");
-$("#my-button").html("hello");
+//add button to the title
+$("#title").append("<button id=titleButton>");
+$("#titleButton").html("button one");
+$("#titleButton").click(function() {swagify1()});
 
-$(document).ready(function(){
-    // Change text of button element
-    $("#myButton").html("Button New Text");
-});
+  function swagify1() {
+    //console.log("button 1");
+    $("#title").toggleClass("swag1");
+  }
+
+  //add button to the challenges section
+  $("#challenges").append("<button id=challengesButton>");
+  $("#challengesButton").html("button two");
+  $("#challengesButton").click(function() {swagify2()});
+
+  function swagify2() {
+    //console.log("button 1");
+    $("#challenges").toggleClass("swag2");
+  }
+
+  //add button to the problems section
+  $("#problems").append("<button id=problemsButton>");
+  $("#problemsButton").html("button three");
+  $("#problemsButton").click(fucntion() {swagify3()});
+
+  function swagify3() {
+    //console.log("button 1");
+    $("#problems").toggleClass("swag3");
+  }
